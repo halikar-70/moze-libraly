@@ -1,0 +1,26 @@
+# Python / Virtual Environments
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database & Uploads
+*.db
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Logs & Temp
+*.log
+logs/
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
